@@ -1,3 +1,7 @@
+body {
+  background: #1f1f1f;
+}
+
 .word {
   background-color: lightblue;
   color: #212529;
@@ -6,7 +10,7 @@
 }
 
 .word-active {
-  background-color: rgb(0, 204, 255);
+  background-color: lightseagreen;
 }
 
 .word-error {
