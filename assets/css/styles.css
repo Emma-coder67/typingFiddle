@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 :root{
   --word-color: #99d6ea;
@@ -22,7 +22,7 @@
 body {
   align-items: center;
   background: var(--background-color);
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .word {
