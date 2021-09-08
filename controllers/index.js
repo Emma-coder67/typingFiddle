@@ -137,7 +137,7 @@ function getCurrentWord() {
 }
 
 function fetchWords(fileName = "english_200", onReady) {
-  let url = `https://raw.githubusercontent.com/deddyromnan/TypingMeter/main/assets/json/${fileName}.json`;
+  let url = `https://raw.githubusercontent.com/pritudev/typingFiddle/master/assets/json/${fileName}.json`;
 
   // alert(fileName);
 
