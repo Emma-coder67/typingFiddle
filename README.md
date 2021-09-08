@@ -1,7 +1,9 @@
 # TypingFiddle
 
 <a href="https://typefiddle.vercel.app">
+  
 ![TypeFiddle](https://cdn.discordapp.com/attachments/741555336980201483/885015933754691614/unknown.png)
+  
 </a>
 
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
