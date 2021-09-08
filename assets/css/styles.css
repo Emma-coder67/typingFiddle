@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
 
-:root{
+:root {
   --word-color: #99d6ea;
   --background-color: #1b1d36;
   --active-word: #fca6d1;
@@ -9,10 +9,9 @@
   --error-word: lightcoral;
   --corrct-word: #fca6d1;
   --incorrct-word: #fffb85;
-
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   align-items: center;
@@ -23,7 +22,7 @@
 body {
   align-items: center;
   background: var(--background-color);
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .word {
@@ -31,7 +30,7 @@ body {
   color: var(--word-color) !important;
   padding: 0 0.2em;
   border-radius: 0.15em;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .word-active {
@@ -57,30 +56,28 @@ body {
   background-color: #fff;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
-input{
+input {
   color: white !important;
   color: white !important;
 }
 
-.accordion-button{
+.accordion-button {
   color: white !important;
   outline: white !important;
-  border:1px solid white !important;
+  border: 1px solid white !important;
 }
-.card{
+.card {
   font-size: 10rem !important;
   position: relative;
-
 }
 
-#button-restart{
+#button-restart {
   outline: none;
-
 }
 
-.header{
+.header {
   color: #fca6d1 !important;
-  font-family: 'Urbanist', sans-serif !important;
+  font-family: "Urbanist", sans-serif !important;
   font-weight: 600;
   text-decoration: none;
 }
