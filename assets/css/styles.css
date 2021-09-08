@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 :root{
+  --word-color: #99d6ea;
   --background-color: #1b1d36;
-  --active-word: lightseagreen;
-  --normal-word: lightblue;
+  --active-word: #fca6d1;
+  --normal-word: #fca6d1;
   --error-word: lightcoral;
-  --corrct-word: #198754;
-  --incorrct-word: #dc3545;
+  --corrct-word: #fca6d1;
+  --incorrct-word: #fffb85;
 
 }
 
@@ -25,29 +26,28 @@ body {
 }
 
 .word {
-  /* background-color: lightblue; */
   font-weight: 550;
-  color: white;
+  color: var(--word-color) !important;
   padding: 0 0.2em;
   border-radius: 0.15em;
 }
 
 .word-active {
-  color: lightseagreen !important;
+  color: var(--active-word) !important;
 }
 
 .word-error {
-  color: lightcoral !important;
+  color: var(--error-word) !important;
 }
 
 .word-correct {
   background-color: transparent !important;
-  color: #ddc700 !important;
+  color: var(--corrct-word) !important;
 }
 
 .word-incorrect {
   background-color: transparent !important;
-  color: #dc3545 !important;
+  color: var(--incorrct-word) !important;
 }
 
 .accordion-button:not(.collapsed) {
