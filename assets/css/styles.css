@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 :root{
   --word-color: #99d6ea;
@@ -30,6 +31,7 @@ body {
   color: var(--word-color) !important;
   padding: 0 0.2em;
   border-radius: 0.15em;
+  transition: .1s ease-in-out;
 }
 
 .word-active {
@@ -78,6 +80,7 @@ input{
 
 .header{
   color: #fca6d1 !important;
+  font-family: 'Urbanist', sans-serif !important;
   font-weight: 600;
   text-decoration: none;
 }
