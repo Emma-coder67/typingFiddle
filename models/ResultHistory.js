@@ -1,6 +1,6 @@
 export default class ResultHistory {
   STORAGE_KEY = "result_history";
-  CAPACITY = 5;
+  CAPACITY = 10000000000;
 
   isStorageAvailable() {
     return typeof Storage !== "undefined";
