@@ -9,7 +9,7 @@
 <br />
 
 ## About
-Typefiddle is a minimalistic typing test website  with history of youur test.
+Typefiddle is a minimalistic typing test website  with history of your test.
 
 ## Bug report or Feature request
 To report anything or to request for Features  you can join [discord server](https://discord.io/prituhq) and ask there.
