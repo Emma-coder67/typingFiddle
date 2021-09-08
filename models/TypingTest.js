@@ -8,7 +8,7 @@ export default class TypingTest {
   correctInput = Array();
   incorrectInput = Array();
 
-  constructor(words, wordsCount = 390, feedCount = 20) {
+  constructor(words, wordsCount = 390, feedCount = 30) {
     this.wordsCount = wordsCount;
     this.feedCount = feedCount;
     this.words = words;

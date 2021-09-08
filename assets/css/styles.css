@@ -1,33 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
+:root{
+  --background-color: #1b1d36;
+  --active-word: lightseagreen;
+  --normal-word: lightblue;
+  --error-word: lightcoral;
+  --corrct-word: #198754;
+  --incorrct-word: #dc3545;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  color: white !important;
+  background: var(--background-color) !important;
+}
+
 body {
-  background: #1f1f1f;
+  align-items: center;
+  background: var(--background-color);
   font-family: 'Urbanist', sans-serif;
 }
 
 .word {
-  background-color: lightblue;
-  color: #212529;
+  /* background-color: lightblue; */
+  font-weight: 550;
+  color: white;
   padding: 0 0.2em;
   border-radius: 0.15em;
 }
 
 .word-active {
-  background-color: lightseagreen;
+  color: lightseagreen !important;
 }
 
 .word-error {
-  background-color: lightcoral;
+  color: lightcoral !important;
 }
 
 .word-correct {
-  background-color: transparent;
-  color: #198754;
+  background-color: transparent !important;
+  color: #ddc700 !important;
 }
 
 .word-incorrect {
-  background-color: transparent;
-  color: #dc3545;
+  background-color: transparent !important;
+  color: #dc3545 !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -35,4 +55,28 @@ body {
   background-color: #fff;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
+input{
+  color: white !important;
+  color: white !important;
+}
 
+.accordion-button{
+  color: white !important;
+  outline: white !important;
+  border:1px solid white !important;
+}
+.card{
+  font-size: 10rem !important;
+  position: relative;
+
+}
+
+#button-restart{
+  outline: none;
+
+}
+
+.header{
+  color: #fca6d1 !important;
+  font-weight: 600;
+}

@@ -18,21 +18,15 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
   </head>
 
-  <body class="bg-dark">
+  <body>
     <div class="container my-5">
       <div class="row">
         <div class="offset-md-2 col-md-4">
-          <h1>
-            <img src="assets/images/logo.png" alt="typingmeter" width="100%" />
+          <h1 class="header">
+            <!-- <img src="assets/images/logo.png" alt="typingmeter" width="100%" /> -->
+            typefiddle
           </h1>
-          <div class="text-center">
-            <a href="https://github.com/pritudev/typingfiddle"
-              ><button type="button" class="btn btn-danger">Github</button></a
-            >
-            <a href="https://discord.io/prituhq"
-              ><button type="button" class="btn btn-danger">Discord</button>
-            </a>
-          </div>
+
         </div>
 
         <div class="offset-md-1 col-md-2">
@@ -42,7 +36,7 @@
             aria-label="Default select example"
           >
             <option disabled>Language</option>
-            <option value="english" selected>English</option>
+            <option value="english_200">English</option>
             <option value="french">French</option>
             <option value="german">German</option>
             <option value="greek">Greek</option>
@@ -178,7 +172,14 @@
         </div>
       </div>
     </div>
-
+    <div class="text-center">
+      <a href="https://github.com/pritudev/typingfiddle"
+        ><button type="button" class="btn btn-danger">Github</button></a
+      >
+      <a href="https://discord.io/prituhq"
+        ><button type="button" class="btn btn-danger">Discord</button>
+      </a>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="controllers/index.js" type="module"></script>
